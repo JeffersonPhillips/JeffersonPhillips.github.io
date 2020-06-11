@@ -1,0 +1,11 @@
+body {
+  margin:0;
+}
+
+#particles-js {
+  top:0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
