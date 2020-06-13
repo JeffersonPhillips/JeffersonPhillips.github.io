@@ -24,7 +24,7 @@ nav.topbar {
     left:0;
     color:white;
     overflow:hidden;
-    z-index: 3;
+    z-index: 4;
 }
 nav>ul {
     list-style-type: none;
