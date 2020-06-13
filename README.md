@@ -3,7 +3,7 @@
 
 Hello there!
 This is the first version of my personal site. I will be adding more features constantly.
-Feel free to read and use my code; however, if you implement a big part of it into your own projects, please cite the source (just include https://jeffersonphillips.github.io/ in your sources).
+Feel free to read and use my code; however, if you implement a big portion of it into your own projects, please cite the source (just include https://jeffersonphillips.github.io/ in your sources).
 Plagiarism is bad, and no one likes bad people.
 
 Feel free to contact me :)
