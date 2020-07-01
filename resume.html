@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" href="Data/Logo.png">
+    <title>Jefferson Phillips</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Background -->
+    <div id="particles-js"></div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js'></script><script  src="./script.js"></script>
+    <!-- Navigation bar -->
+    <nav id="topbar">
+        <a href="https://JeffersonPhillips.github.io"><img src="Data/Logo.png" alt="Logo" class="logo"></a>
+        <ul>
+            <li><a href="https://JeffersonPhillips.github.io">Home</a></li>
+            <li><a href="https://JeffersonPhillips.github.io#About">About</a></li>
+            <li><a href="https://JeffersonPhillips.github.io/resume.html">Résumé</a></li>
+            <li><a href="https://JeffersonPhillips.github.io/blog.html">Blog</a></li>
+            <li><a href="https://JeffersonPhillips.github.io/contact.html">Contact me</a></li>
+        </ul>
+    </nav>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos || window.scrollY < 50 ) {
+            document.getElementById("topbar").style.top = "0";
+          } else {
+            document.getElementById("topbar").style.top = "-50px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+    </script>
+    <section class="border">
+        <!-- Jobs -->
+        <h1 class="worked">Where I've worked</h1>
+        <div class="container" style="box-sizing: border-box;">
+            <div class="tabs">
+                <a class="tab tab-1 active work" href="#" data-tab="1">TMCC</a>
+                <a class="tab tab-2 work" href="#" data-tab="2">Emerson</a>
+                <a class="tab tab-3 work" href="#" data-tab="3">P&G</a>
+                <a class="tab tab-4 work" href="#" data-tab="4">DELL</a>
+                <span class="highlighter"></span>
+            </div>
+            <!-- Work Content -->
+            <div class="content">
+                <div class="content__section visible" data-tab="1">
+                    <h2 class="worked">Truckee Meadows Community College</h2>
+                    <h3 class="worked">Computer Science Tutor</h3>
+                    <h4 class="worked">Spring 2020</h4>
+                    <p class="worked">During my last semester studying at Truckee Meadows Community College, I provided tutoring 
+                        services in subjects related to Computer Science, Calculus, Physics, and Spanish. Additionally, 
+                        I assisted Dr. Edward Corbet, my Computer Science professor, with his 
+                        instructional responsibilities for introductory programming classes.</p><br/>
+                    <h3 class="worked">International Peer Mentor</h3>
+                    <h4 class="worked">September 2018 - May 2020</h4>
+                    <p class="worked">As an international peer mentor, I work under the supervision of the International 
+                        Student Services Director. Some of my assigned tasks were: to recruit students out borders, 
+                        coordinate logistics related to activities for international students, provide guidance and support 
+                        to international students, manage social media, and to develop marketing resources 
+                        (videos, images, fliers) for the international students office.</p>
+                </div>
+                <div class="content__section" data-tab="2">
+                    <h2 class="worked">Emerson Electric Costa Rica</h2>
+                    <h3 class="worked">Project Administrator</h3>
+                    <h4 class="worked">February 2018 - August 2018</h4>
+                    <p class="worked">As a project administrator I provided administrative outsource to Mexico and Puerto 
+                        Rico supplying the project managers' needs. Some the tasks assigned to my role were: creation, 
+                        follow-up, and closure of projects using Project Management software (CISCO), creation and recipience 
+                        of purchase orders, processing invoices, and analizing and reporting the projects' monthly performance .</p>
+                </div>
+                <div class="content__section" data-tab="3">
+                    <h2 class="worked">Procter and Gamble Costa Rica (Intern)</h2>
+                    <h3 class="worked">Tax Accountant</h3>
+                    <h4 class="worked">September 2017 - December 2017</h4>
+                    <p class="worked">3 months internship in P&G Costa Rica.</br> As a tax accountant I had to attend the tax compliance tasks 
+                        for Value Added Tax (VAT)/Withholding (WHT) and Reporting for Guatemalan and Mexican Legal Entities. 
+                        I was in charge of reporting tax information generated along the accounting period, reconciling it 
+                        and executing detective quality controls to finally submit the tax returns to the Corporate 
+                        Tax organization. In addition, I had to ensure that reports comply with internal controls and government 
+                        guidelines.</p>
+                </div>
+                <div class="content__section" data-tab="4">
+                    <h2 class="worked">DELL Costa Rica (Intern)</h2>
+                    <h3 class="worked">Assistant Accountant</h3>
+                    <h4 class="worked">September 2016</h4>
+                    <p class="worked">2 weeks internship at DELL Costa Rica Ltda.</br>I worked under the supervision of the 
+                        manager of the accounting department. I was assigned tasks related to the exportation of obsolete 
+                        assets to the DELL's headquarters (I mainly gathered data required to finalize the documentation
+                        related to the hardware.)</p>
+                </div>
+            </div>
+        </div>
+        <script  src="./script2.js"></script>
+
+
+
+        <!-- Academia -->
+        </br></br><h1 class="worked">Where I've studied</h1></br>
+        <div id="academia">
+            <h2>TRUCKEE MEADOWS COMMUNITY COLLEGE</h2>
+            <p>Associate of Science | Computer Science</br>
+            Reno, NV | Graduated: May 2020</p></br>
+
+            <h2>CTP COMERCIAL Y DE SERVICIOS</h2>
+            <p>Technical Degree | Banking and Finance</br>
+            San José, Costa Rica | Graduated: 2017</p></br>
+        </div>
+
+
+        <!-- Extracurricular -->
+        </br><h1 class="worked">Other things I've done</h1>
+        <p id="resumeac">
+            &nbsp;<dfn class="extr">Languages:</dfn></br>
+            &nbsp;&nbsp;&nbsp;&nbsp; Spanish | Native Proficiency</br>
+            &nbsp;&nbsp;&nbsp;&nbsp; English | Full Professional Proficiency</br>
+            &nbsp;&nbsp;&nbsp;&nbsp; Italian | Advanced Professional Proficiency</br>
+            &nbsp;&nbsp;&nbsp;&nbsp; Portuguese | Limited Professional Proficiency</br></br>
+
+            &nbsp;<dfn class="extr">Recognitions:</dfn></br>
+            &nbsp;&nbsp;&nbsp;&nbsp;TMCC SGA Outstanding Club Leader of the Year | 2019 - 2020</br></br>
+
+            &nbsp;<dfn class="extr">Participation:</dfn></br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Phi Theta Kappa, Honor society - Member</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;TMCC Latin Dance Club | 2019 - 2020 - President</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;TMCC International Club | 2019 - 2020 - President</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;TMCC’s Technology Committee - Member </br></br>
+
+            &nbsp;<dfn class="extr">Volunteering: </dfn></br>
+            &nbsp;&nbsp;&nbsp;&nbsp;TEDx University of Nevada | 2020 - Ticketer</br></br>
+
+            &nbsp;<dfn class="extr">Others:</dfn></br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Student Blogger - Study USA | 2018 - 2019</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Costa Rica WaterPolo National Team | 2016 - Capitan</br>
+        </p>
+        <!-- Resume.pdf -->
+        </br></br></br></br>
+        <div style="text-align: center;">
+                <a href="https://JeffersonPhillips.github.io/Data/JPR_Resume.pdf" target="_blank"><button class="button2">Get my résumé.pdf</button></a></br>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer id="foot">
+        <br/><br>
+        <div>
+            <a href="https://www.linkedin.com/in/jefferson-phillips/" target="_blank">
+                <img class="footerlink" src="Footer/Linked.png" alt="LinkedIn"></a>
+            <a href="https://github.com/JeffersonPhillips" target="_blank">
+                <img class="footerlink" src="Footer/Git.png" alt="GitHub"></a>
+            <a href="mailto:jeffphillips500@gmail.com" target="_blank">
+                <img class="footerlink" src="Footer/Email.png" alt="Email"></a>
+            <a href="https://www.instagram.com/jefferson_phillips/" target="_blank">
+                <img class="footerlink" src="Footer/Insta.png" alt="Instagram"></a>
+            <a href="tel:+17256001724" target="_blank">
+                <img class="footerlink" src="Footer/Whats.png" alt="WhatsApp"></a>
+        </div>
+        <p style="display: inline; color:white;"><br/>Designed and built by Jefferson Phillips</p>
+        <p style="display: inline; color:#00CB9A;"><br/>© 2020</p>
+    </footer>
+    <script>
+        let src= screen.height;
+        let testDiv = document.getElementById('foot');
+        let ft= testDiv.offsetTop;
+
+        if( (ft+175) < src )
+            document.getElementById('foot').style.position = "absolute";
+    </script>
+</body>
+</html>

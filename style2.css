@@ -1,3 +1,4 @@
+/*Background Particles*/
 body {
   margin:0;
 }
@@ -8,4 +9,129 @@ body {
   height: 100%;
   width: 100%;
   z-index: -1;
+}
+
+/*Work Experience*/
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a.work {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  transition: color 0.25s ease;
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+  width: 75%;
+  display: flex;
+  align-items: flex-start;
+  height: auto;
+}
+.container .tabs {
+  display: block;
+  position: relative;
+  z-index: 3;
+}
+.container .tabs .tab {
+  width: 175px;
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  padding: 10px 0;
+  transition: all 0.25s ease;
+  border-left: 2px solid #303C55C7;
+  color: #303C55C7;
+}
+.container .tabs .tab:hover {
+  color: #00CB9A;
+  font-size: larger;
+}
+.container .tabs .tab.active {
+  color: #00CB9A;
+}
+.container .tabs .tab.tab-1.active ~ .highlighter {
+  transform: translateY(0px);
+}
+.container .tabs .tab.tab-2.active ~ .highlighter {
+  transform: translateY(50px);
+}
+.container .tabs .tab.tab-3.active ~ .highlighter {
+  transform: translateY(100px);
+}
+.container .tabs .tab.tab-4.active ~ .highlighter {
+  transform: translateY(150px);
+}
+.container .tabs .highlighter {
+  display: block;
+  background: #00CB9A;
+  width: 2px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(0);
+  transition: transform 0.2s ease;
+  transition-delay: 0.1s;
+  z-index: 10;
+}
+.container .tabs a:first-of-type {
+  border-top-left-radius: 2px;
+}
+.container .tabs a:last-of-type {
+  border-top-right-radius: 2px;
+}
+.container .content {
+  width: 100000px;
+  position: relative;
+  padding: 0 20px;
+}
+.container .content__section {
+  position: absolute;
+  left:0;
+  top:0;
+  opacity: 0;
+  z-index: 0;
+  transition: opacity 0s ease;
+}
+.container .content__section.visible {
+  position: relative;
+  opacity: 1;
+  width: 100%;
+  transition: opacity 0.5s ease;
+  z-index: 2;
+}
+h1.worked {
+  font-size: xx-large;
+  color:#303C55;
+  text-align: center;
+}
+h2.worked {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  font-size: x-large;
+  font: bold;
+}
+h3.worked {
+  color:#303C55;
+  margin: 0 auto;
+  color: #00CB9A;
+}
+h4.worked {
+  color:#303C55AD;
+  font-size: smaller;
+  padding-bottom: 10px;
+  margin: 0;
+}
+p.worked {
+  font-size: large;
+  margin: 0; 
 }
