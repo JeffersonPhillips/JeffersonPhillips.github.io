@@ -69,6 +69,9 @@ a.work {
 .container .tabs .tab.tab-4.active ~ .highlighter {
   transform: translateY(150px);
 }
+.container .tabs .tab.tab-5.active ~ .highlighter {
+  transform: translateY(200px);
+}
 .container .tabs .highlighter {
   display: block;
   background: #00CB9A;
@@ -78,8 +81,8 @@ a.work {
   top: 0;
   left: 0;
   transform: translateY(0);
-  transition: transform 2s ease;
-  transition-delay: 1s;
+  transition: transform 1s ease;
+  transition-delay: 0.5s;
   z-index: 10;
 }
 .container .tabs a:first-of-type {
@@ -99,13 +102,13 @@ a.work {
   top:0;
   opacity: 0;
   z-index: 0;
-  transition: opacity 0s ease;
+  transition: opacity 0.5s ease;
 }
 .container .content__section.visible {
   position: relative;
   opacity: 1;
   width: 100%;
-  transition: opacity 0.5s ease;
+  transition: opacity 1s ease;
   z-index: 2;
 }
 h1.worked {
