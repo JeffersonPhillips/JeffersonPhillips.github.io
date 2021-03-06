@@ -78,8 +78,8 @@ a.work {
   top: 0;
   left: 0;
   transform: translateY(0);
-  transition: transform 0.2s ease;
-  transition-delay: 0.1s;
+  transition: transform 2s ease;
+  transition-delay: 1s;
   z-index: 10;
 }
 .container .tabs a:first-of-type {
