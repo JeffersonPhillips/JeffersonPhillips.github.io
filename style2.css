@@ -72,6 +72,9 @@ a.work {
 .container .tabs .tab.tab-5.active ~ .highlighter {
   transform: translateY(200px);
 }
+.container .tabs .tab.tab-6.active ~ .highlighter {
+  transform: translateY(250px);
+}
 .container .tabs .highlighter {
   display: block;
   background: #00CB9A;
